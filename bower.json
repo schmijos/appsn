@@ -2,6 +2,7 @@
   "name": "appsn",
   "version": "0.1.0",
   "dependencies": {
-    "easeljs": "*"
+    "EaselJS": "*",
+    "TweenJS": "*"
   }
 }
