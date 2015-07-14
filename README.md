@@ -7,5 +7,5 @@ then install bower:
 
     nvm use
     npm install -g bower
-
+    bower install
 
