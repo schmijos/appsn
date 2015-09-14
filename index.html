@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1">
 
-    <title>Hello World</title>
+    <title>First Firefox OS App</title>
 
     <style>
       body {
@@ -12,17 +12,14 @@
       }
     </style>
 
-    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions),
-         so we use a script file. -->
-	  <script src="./bower_components/EaselJS/lib/easeljs-0.8.1.min.js"></script>
+    <!-- Inline scripts are forbidden in Firefox OS apps (CSP restrictions), so we use a script file. -->
+    <script src="./bower_components/EaselJS/lib/easeljs-0.8.1.min.js"></script>
     <script src="./bower_components/TweenJS/lib/tweenjs-0.6.1.min.js"></script>
     <script src="app.js" defer></script>
 
   </head>
 
   <body>
-    <!-- This code is in the public domain. Enjoy! -->
-    <h1>Hello World</h1>
     <canvas id="demoCanvas" width="300" height="300"></canvas>
   </body>
 
